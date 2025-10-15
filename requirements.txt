@@ -1,0 +1,13 @@
+# 專案運行所需的套件 (假設專案需要處理 HTTP 請求)
+requests==2.31.0
+
+# --- CI/CD 工具與測試框架 ---
+
+# 測試框架 (用於 unit test job)
+pytest==7.4.3
+
+# 程式碼格式化工具 (用於 lint job)
+black==23.10.1
+
+# 靜態程式碼分析工具 (用於 lint job)
+flake8==6.1.0
